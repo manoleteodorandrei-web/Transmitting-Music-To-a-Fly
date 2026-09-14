@@ -1,6 +1,8 @@
 # Drosophila Audio Connectome Simulator
 
-A high-performance neural engine written in C that simulates the biological connectome of a *Drosophila* (fruit fly) reacting to real-time audio. 
+FlyWire Brain Dataset (FAFB v783) from Kaggle where connections.csv and classification.csv are found and needed
+A high-performance neural engine written in C that simulates the biological connectome of a *Drosophila* (fruit fly) reacting to real-time audio.
+
 
 This engine maps 135,000 neurons and 3.8 million synapses, utilizing a Compressed Sparse Row (CSR) memory architecture to eliminate dynamic allocation bottlenecks and cache misses. Audio frequencies are extracted via the FFTW library, normalized, and injected directly into the biological sensory nodes, triggering mathematically accurate neural cascades of up to 29.5 million firings per tick.
 
@@ -39,6 +41,7 @@ Because the biological dataset is heavily structurally biased toward the left he
 3. **Run the simulation**
     ./fly_simulation sample_audio.wav
 
+Note: In the other README there is an instance in which the fly leans right, that is when a sin x signal is played, therefore we can conclude that the fly leans more to the right the more it sounds like a sin signal, xtal and black knife are two songs that are more similar to the sin signal than the rest of the songs.
 
 
 
