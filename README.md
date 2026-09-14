@@ -1,6 +1,6 @@
 # Drosophila Audio Connectome Simulator
 
-FlyWire Brain Dataset (FAFB v783) from Kaggle where connections.csv and classification.csv are found and needed
+FlyWire Brain Dataset (FAFB v783) from Kaggle where connections.csv and classification.csv are found and needed to run the simulator.
 A high-performance neural engine written in C that simulates the biological connectome of a *Drosophila* (fruit fly) reacting to real-time audio.
 
 
