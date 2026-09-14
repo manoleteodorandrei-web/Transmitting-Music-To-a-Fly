@@ -6,6 +6,8 @@ A high-performance neural engine written in C that simulates the biological conn
 
 This engine maps 135,000 neurons and 3.8 million synapses, utilizing a Compressed Sparse Row (CSR) memory architecture to eliminate dynamic allocation bottlenecks and cache misses. Audio frequencies are extracted via the FFTW library, normalized, and injected directly into the biological sensory nodes, triggering mathematically accurate neural cascades of up to 29.5 million firings per tick.
 
+![Drosophila with headphones](good_image_for_fly.png)
+
 ## Key Features
 
 * **Biological Scale:** Simulates a structurally accurate connectome containing 135,000 nodes and 3,869,878 pure biological edges.
